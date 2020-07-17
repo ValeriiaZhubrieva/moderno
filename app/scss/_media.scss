@@ -107,13 +107,12 @@
         transition: all .5s;
         position: absolute;
         z-index: 2;
-        left: 100%;
-        right: -100%;
+        top: -100%;
         background-color: #fff;
         height: 68px;
         &.active{
             left: 70px;
-            right: 90px;
+            top: 0;
         }
     }
     .header__logo{
